@@ -1,0 +1,17 @@
+command:
+  - python
+  - src/app.py
+
+env:
+  - name: "WAREHOUSE_HTTP_PATH"
+    value: "/sql/1.0/warehouses/762f1d756f0424f6"
+  - name: "UNITY_CATALOG_CATALOG"
+    value: "main"
+  - name: "UNITY_CATALOG_SCHEMA"
+    value: "default"
+  - name: "POSTGRES_HOST"
+    value: "instance-111abc.database.cloud.databricks.com"
+  - name: "POSTGRES_DATABASE"
+    value: "databricks_postgres"
+  - name: "POSTGRES_SCHEMA"
+    value: "public"
